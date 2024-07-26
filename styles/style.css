@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+    display: flex;
+    margin-bottom: 5rem;
+}
+.primary-btn{
+    background-color: rgb(236, 93, 117);
+    border: none;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 0.8rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* Let’s Help section start */
+.donate-title{
+    background-image:linear-gradient(0deg, rgb(22, 22, 22), rgba(0, 0, 0, 0.199) 100%), url(../images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10rem 2rem;
+}
+.donate-title h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+}
+.donate-title p{
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin-top: 1rem;
+}
+.header-btn{
+    margin-top: 2rem;
+}
+/* Let’s Help section end */
+
+.donate-today{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.donate-amount{
+    display: flex;
+    gap: 1rem;
+}
+.donate-amount h4{
+    padding: 1rem;
+    color: rgb(70, 70, 70);
+    
+}
+.donate-amount h4:hover{
+    border: 1px solid rgb(236, 93, 117);
+    color: rgb(236, 93, 117);
+    border-radius: .5rem;
+}
+.donate-today input{
+    border: none;
+}
