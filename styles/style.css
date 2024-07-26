@@ -194,3 +194,54 @@ footer{
 .footer-section h3{
     color: rgb(255, 89, 89);
 }
+
+@media screen and (max-width:576px){
+    .donate-title{
+        background-size: 100%;
+        padding: 1.5rem 0 ;
+    }
+    .donate-title h1{
+        font-size: 2rem;
+    }
+    .donate-title p{
+        font-size: 1rem;
+    }
+    .primary-btn{
+        margin: 0;
+    }
+    .donate-today{
+        width: 90%;
+    }
+    .donate-plan-content,
+    .lives-depend-container,
+    .need-suvive-container,
+    .update{
+        flex-direction: column;
+    }
+    .donate-today h2,
+    .donate-plan-container h2,
+    .lives-depend-container h2,
+    .need-suvive-container h2,
+    .update-container h2{
+        font-size: 2rem;
+    }
+    .donate-today p,
+    .donate-plan-container p,
+    .lives-depend-container p,
+    .need-suvive-container p,
+    .update-container p{
+        font-size: 1rem;
+    }
+    .donate-plan-content div{
+       width: 100%;
+       margin: 2rem auto;
+    }
+    .update{
+        margin: .2rem;
+        padding: 2rem 0;
+        gap: 1rem;
+    }
+    .update input{
+        width: 80%;
+    }
+}
