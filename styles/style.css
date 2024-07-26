@@ -1,3 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lobster&display=swap');
+
+.footer-title{
+        font-family: "Lobster", sans-serif;
+        font-size: 1.8rem;
+        font-weight: 600;
+        font-style: normal;    
+}
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,15 +21,25 @@ body{
 .container{
     margin: 0 auto;
     width: 95%;
-    text-align: center;
     display: flex;
     margin-bottom: 5rem;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(18, 18, 18);
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(112, 112, 112);
+    margin-top: 1.2rem;
 }
 .primary-btn{
     background-color: rgb(236, 93, 117);
     border: none;
     border-radius: .5rem;
-    margin: 1rem;
+    margin: 1rem 0;
     padding: 0.8rem;
     color: white;
     font-size: 1rem;
@@ -34,6 +55,7 @@ body{
     justify-content: center;
     align-items: center;
     padding:10rem 2rem;
+    text-align: center;
 }
 .donate-title h1{
     font-size: 4rem;
@@ -74,4 +96,101 @@ body{
 }
 .donate-today input{
     border: none;
+    padding: 1rem;
+}
+
+/* donate plan section start */
+.donate-plan-container{
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+.donate-plan-content{
+    display: flex;
+    text-align: left;
+    gap: 1rem;
+}
+.donate-plan-content div{
+    margin-top: 2rem;
+    width: 30%;
+    padding: 1rem;
+}
+.donate-plan-content div:hover{
+    background-color: rgb(255, 205, 176);
+}
+.donate-plan-content div img, h3, p{
+    margin-bottom: 1.5rem;
+}
+
+/* lives depend  and They need us to suvive section start */
+.lives-depend-container{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-direction: row-reverse;
+    
+}
+.lives-depend-container img{
+    width: 100%;
+}
+
+
+.need-suvive-container{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    
+}
+.need-suvive-container img{
+    width: 100%;
+}
+/* lives depend  and They need us to suvive section end */
+
+
+/* get my updates section start */
+.update-container{
+    width: 70%;
+    flex-direction: column;
+    text-align: center;
+}
+.update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 205, 176);
+    padding: 5rem;
+    margin-top: 3.5rem;
+}
+.update input{
+    width: 40%;
+    border: none;
+    padding: 1rem;
+    background-color: rgb(211, 211, 211);
+}
+.update button{
+border-radius: 0%;
+}
+/* get my updates section end */
+
+footer{
+    margin: 0 auto;
+    background-color: rgb(11, 13, 23);
+    padding: 3rem;
+}
+    
+.footer-section{
+    background-color: rgb(11, 13, 23);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.footer-section h3{
+    color: rgb(255, 89, 89);
 }
