@@ -212,6 +212,10 @@ footer{
     .donate-today{
         width: 90%;
     }
+    .donate-amount{
+        margin: 0;
+        gap: .2rem;
+    }
     .donate-plan-content,
     .lives-depend-container,
     .need-suvive-container,
